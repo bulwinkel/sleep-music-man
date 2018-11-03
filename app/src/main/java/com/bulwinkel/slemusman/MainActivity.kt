@@ -1,4 +1,4 @@
-package com.bulwinkel.ymim
+package com.bulwinkel.slemusman
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

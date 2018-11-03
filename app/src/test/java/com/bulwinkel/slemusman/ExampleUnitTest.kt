@@ -1,4 +1,4 @@
-package com.bulwinkel.ymim
+package com.bulwinkel.slemusman
 
 import org.junit.Test
 
