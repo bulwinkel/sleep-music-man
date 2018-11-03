@@ -31,6 +31,7 @@ dependencies {
     implementation(Deps.androidx_constraintlayout)
     implementation(Deps.androidx_core_ktx)
     implementation(Deps.androidx_fragment_ktx)
+    implementation(Deps.android_arch_work_runtime_ktx)
 
     testImplementation("junit:junit:4.12")
     androidTestImplementation("com.android.support.test:runner:1.0.2")
