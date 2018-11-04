@@ -10,7 +10,7 @@ import timber.log.Timber
 class AlarmBroadcastReceiver: BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         Timber.i("onReceive: intent = $intent")
-        val changeVolumeWork = OneTimeWorkRequestBuilder<ChangeVolumeWorder>()
+        val changeVolumeWork = OneTimeWorkRequestBuilder<ChangeVolumeWorker>()
             .build()
         WorkManager.getInstance().enqueue(changeVolumeWork)
     }
