@@ -33,6 +33,8 @@ dependencies {
     implementation(Deps.androidx_fragment_ktx)
     implementation(Deps.android_arch_work_runtime_ktx)
 
+    implementation(Deps.timber)
+
     testImplementation("junit:junit:4.12")
     androidTestImplementation("com.android.support.test:runner:1.0.2")
     androidTestImplementation("com.android.support.test.espresso:espresso-core:3.0.2")

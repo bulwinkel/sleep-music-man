@@ -23,4 +23,6 @@ object Deps {
     val android_arch_navigation_ui_ktx = "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha06"
 
     val android_arch_work_runtime_ktx = "android.arch.work:work-runtime-ktx:1.0.0-alpha10"
+
+    val timber = "com.jakewharton.timber:timber:4.7.1"
 }
